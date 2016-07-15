@@ -1,4 +1,4 @@
 AndroidNIC
 ==========
 
-This project holds the NIC for its Android version
+This project holds the Oxymeter for its Android version
