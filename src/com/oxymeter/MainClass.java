@@ -191,7 +191,7 @@ public class MainClass extends Activity implements IScanDiscoveryFinishedHandler
 						
 	        // Set device to be StarStim
 	        String deviceCurrentName = this.getDeviceName( macAddress );
-	        if( deviceCurrentName.equals("NE-STARSTIM") ){
+	        if( deviceCurrentName.equals("NE-ICOGNOS") ){
 	            _numOfChannels = 8;
 	            _device.setIsStarStim(true);
 	        }
