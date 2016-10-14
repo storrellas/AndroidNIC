@@ -2,7 +2,7 @@ package com.icognos;
 
 import com.icognos.deviceManager.ChannelData;
 
-public interface IEnobioHandler {
+public interface IenzoHandler {
 
     /*!
      * Signal that is emitted reporting the remaining percentage of the
@@ -55,10 +55,10 @@ public interface IEnobioHandler {
     void newImpedanceData(ChannelData data, long timeStamp);
 
     /*!
-     * Signal that is emitted whenever the Enobio3G/StarStim device status
+     * Signal that is emitted whenever the enzo3G/StarStim device status
      * changes.
      *
-     * \param deviceStatus New Enobio3G/Starstim status. The value 0xFF means
+     * \param deviceStatus New enzo3G/Starstim status. The value 0xFF means
      * that the device does not repond. For different values the meaning is at
      * bit level as it follows: Bit 6: Stimulation ON/OFF, Bit 5: EEG Streaming
      * ON/OFF, Impedance measurement ON/OFF. Bit set to one means ON.
@@ -66,13 +66,13 @@ public interface IEnobioHandler {
     void newDeviceStatus(int deviceStatus);
 
     /*!
-     * Signal that is emitted whenever the Enobio3G/StarStim connection is lost
+     * Signal that is emitted whenever the enzo3G/StarStim connection is lost
      * so that the led starts blinking before actually closing the connection.
      */
     void startBlinking();
 
     /*!
-     * Signal that is emitted whenever the Enobio3G/StarStim connection is
+     * Signal that is emitted whenever the enzo3G/StarStim connection is
      * recovered so that the led stops blinking.
      */
     void stopBlinking();

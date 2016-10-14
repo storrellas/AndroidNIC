@@ -36,7 +36,7 @@ import com.icognos.util.ILoggerOutput;
 import com.icognos.util.Logger;
 import com.icognos.util.Reference;
 
-public class MainClass extends Activity implements IScanDiscoveryFinishedHandler, ILoggerOutput, IEnobioHandler{
+public class MainClass extends Activity implements IScanDiscoveryFinishedHandler, ILoggerOutput, IenzoHandler{
 
 	
 	//  ----------------
