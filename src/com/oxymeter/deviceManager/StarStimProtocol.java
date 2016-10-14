@@ -1277,7 +1277,7 @@ public class StarStimProtocol {
             {
           
 /*
-    #ifdef __DEBUGARTIFACTENOBIO20PROTOCOL__
+    #ifdef __DEBUGARTIFACTICOGNOS20PROTOCOL__
                 if (_starStimData.deviceStatus() & 0x02)
                 {
                     for (unsigned int k = 0; k < _debugErrorFrameIndex; k++)

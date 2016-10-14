@@ -2969,7 +2969,7 @@ public class DeviceManager implements Runnable {
 		/**/
 		
 		/*
-		ArrayList<Byte> test = StarStimProtocol.buildRenameRadioRequest("NE-ENOBIO20");
+		ArrayList<Byte> test = StarStimProtocol.buildRenameRadioRequest("NE-ICOGNOS20");
 		String str = "";
 		for( byte b : test ){
 			str += String.format("%02d ", b);

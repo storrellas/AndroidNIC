@@ -195,15 +195,15 @@ public class MainClass extends Activity implements IScanDiscoveryFinishedHandler
 	            _numOfChannels = 8;
 	            _device.setIsStarStim(true);
 	        }
-	        if( deviceCurrentName.equals("NE-ENOBIO8")){
+	        if( deviceCurrentName.equals("NE-ICOGNOS8")){
 	            _numOfChannels = 8;
 	            _device.setIsStarStim(false);
 	        }
-	        if( deviceCurrentName.equals("NE-ENOBIO20")){
+	        if( deviceCurrentName.equals("NE-ICOGNOS20")){
 	            _numOfChannels = 20;
 	            _device.setIsStarStim(false);
 	        }
-	        if( deviceCurrentName.equals("NE-ENOBIO32") ){
+	        if( deviceCurrentName.equals("NE-ICOGNOS32") ){
 	            _numOfChannels = 32;
 	            _device.setIsStarStim(false);
 	        }
