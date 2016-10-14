@@ -1,4 +1,4 @@
-package com.neuroelectrics;
+package com.icognos;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -24,17 +24,17 @@ import android.widget.Toast;
 import com.androidplot.Plot;
 import com.androidplot.xy.XYPlot;
 
-import com.neuroelectrics.R;
-import com.neuroelectrics.bluetooth.BluetoothManager;
-import com.neuroelectrics.deviceManager.ChannelData;
-import com.neuroelectrics.deviceManager.DennisRegisters;
-import com.neuroelectrics.deviceManager.DeviceManager;
-import com.neuroelectrics.deviceManager.StarStimProtocol;
-import com.neuroelectrics.deviceManager.DeviceManager.OpenErrorTypes;
-import com.neuroelectrics.plotmanager.PlotManager;
-import com.neuroelectrics.util.ILoggerOutput;
-import com.neuroelectrics.util.Logger;
-import com.neuroelectrics.util.Reference;
+import com.icognos.R;
+import com.icognos.bluetooth.BluetoothManager;
+import com.icognos.deviceManager.ChannelData;
+import com.icognos.deviceManager.DennisRegisters;
+import com.icognos.deviceManager.DeviceManager;
+import com.icognos.deviceManager.StarStimProtocol;
+import com.icognos.deviceManager.DeviceManager.OpenErrorTypes;
+import com.icognos.plotmanager.PlotManager;
+import com.icognos.util.ILoggerOutput;
+import com.icognos.util.Logger;
+import com.icognos.util.Reference;
 
 public class MainClass extends Activity implements IScanDiscoveryFinishedHandler, ILoggerOutput, IEnobioHandler{
 
@@ -174,7 +174,7 @@ public class MainClass extends Activity implements IScanDiscoveryFinishedHandler
 	 * @param view
 	 */
 	public void openDeviceHandle(View view){
-		Log.w("com.neuroelectrics", "Clicked OpenDevice");	
+		Log.w("com.icognos", "Clicked OpenDevice");	
 		
 		logger.info("Clicked Open device", Logger.LOG_FILE_ON );
 			    	
@@ -301,7 +301,7 @@ public class MainClass extends Activity implements IScanDiscoveryFinishedHandler
 	 * @param view
 	 */
 	public void closeDeviceHandle(View view){
-		Log.w("com.neuroelectrics", "Clicked CloseDevice");
+		Log.w("com.icognos", "Clicked CloseDevice");
 				
     	logger.info("Closing device", Logger.LOG_FILE_ON);
     	
@@ -341,7 +341,7 @@ public class MainClass extends Activity implements IScanDiscoveryFinishedHandler
 	 * @param view
 	 */
 	public void startStreamingHandle(View view){
-		Log.w("com.neuroelectrics", "Clicked StartStreaming");
+		Log.w("com.icognos", "Clicked StartStreaming");
 		logger.info("Clicked Start Streaming", Logger.LOG_FILE_ON );
 		
     	logger.info("Launching StartStreaming ...", Logger.VISUAL_CONSOLE_ON | Logger.LOG_FILE_ON);
@@ -374,7 +374,7 @@ public class MainClass extends Activity implements IScanDiscoveryFinishedHandler
 	 * @param view
 	 */
 	public void stopStreamingHandle(View view){				
-		Log.w("com.neuroelectrics", "Clicked StopStreaming");		
+		Log.w("com.icognos", "Clicked StopStreaming");		
 		logger.info("Clicked Stop Streaming", Logger.LOG_FILE_ON );
 		
 		// Terminates the plot Manager		

@@ -1,11 +1,11 @@
-package com.neuroelectrics.deviceManager;
+package com.icognos.deviceManager;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 
 import android.util.Log;
 
-import com.neuroelectrics.util.Logger;
+import com.icognos.util.Logger;
 
 public class StarStimProtocol {
 

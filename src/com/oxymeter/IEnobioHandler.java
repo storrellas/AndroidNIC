@@ -1,6 +1,6 @@
-package com.neuroelectrics;
+package com.icognos;
 
-import com.neuroelectrics.deviceManager.ChannelData;
+import com.icognos.deviceManager.ChannelData;
 
 public interface IEnobioHandler {
 

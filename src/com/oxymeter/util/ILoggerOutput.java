@@ -1,4 +1,4 @@
-package com.neuroelectrics.util;
+package com.icognos.util;
 
 public interface ILoggerOutput {
 	public void setVisualLog(String msg);

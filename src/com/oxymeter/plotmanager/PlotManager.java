@@ -1,4 +1,4 @@
-package com.neuroelectrics.plotmanager;
+package com.icognos.plotmanager;
 
 import java.text.DecimalFormat;
 import java.text.FieldPosition;
@@ -13,7 +13,7 @@ import com.androidplot.xy.BoundaryMode;
 import com.androidplot.xy.LineAndPointFormatter;
 import com.androidplot.xy.XYPlot;
 import com.androidplot.xy.XYStepMode;
-import com.neuroelectrics.util.Logger;
+import com.icognos.util.Logger;
 
 public class PlotManager {
 	

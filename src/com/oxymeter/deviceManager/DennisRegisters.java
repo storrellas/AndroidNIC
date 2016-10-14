@@ -1,4 +1,4 @@
-package com.neuroelectrics.deviceManager;
+package com.icognos.deviceManager;
 
 public class DennisRegisters {
 

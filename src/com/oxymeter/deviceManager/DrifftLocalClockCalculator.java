@@ -1,10 +1,10 @@
-package com.neuroelectrics.deviceManager;
+package com.icognos.deviceManager;
 
 import java.util.Calendar;
 import java.util.TimeZone;
 
-import com.neuroelectrics.util.Reference;
-import com.neuroelectrics.util.Logger;
+import com.icognos.util.Reference;
+import com.icognos.util.Logger;
 
 public class DrifftLocalClockCalculator {
 

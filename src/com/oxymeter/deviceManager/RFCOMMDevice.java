@@ -1,4 +1,4 @@
-package com.neuroelectrics.deviceManager;
+package com.icognos.deviceManager;
 
 
 import java.io.IOException;
@@ -7,10 +7,10 @@ import java.util.ArrayList;
 
 import android.app.Activity;
 
-import com.neuroelectrics.IScanDiscoveryFinishedHandler;
-import com.neuroelectrics.bluetooth.BluetoothManager;
-import com.neuroelectrics.util.Reference;
-import com.neuroelectrics.util.Logger;
+import com.icognos.IScanDiscoveryFinishedHandler;
+import com.icognos.bluetooth.BluetoothManager;
+import com.icognos.util.Reference;
+import com.icognos.util.Logger;
 
 
 public class RFCOMMDevice {

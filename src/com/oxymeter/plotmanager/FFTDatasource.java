@@ -1,4 +1,4 @@
-package com.neuroelectrics.plotmanager;
+package com.icognos.plotmanager;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -12,7 +12,7 @@ import org.apache.commons.math3.transform.FastFourierTransformer;
 import org.apache.commons.math3.transform.TransformType;
 
 import com.androidplot.xy.XYSeries;
-import com.neuroelectrics.util.Logger;
+import com.icognos.util.Logger;
 
 public class FFTDatasource implements Runnable, XYSeries, Datasource{
 

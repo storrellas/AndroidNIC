@@ -1,4 +1,4 @@
-package com.neuroelectrics.plotmanager;
+package com.icognos.plotmanager;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -8,7 +8,7 @@ import java.util.Observer;
 import org.apache.commons.math3.stat.regression.SimpleRegression;
 
 import com.androidplot.xy.XYSeries;
-import com.neuroelectrics.util.Logger;
+import com.icognos.util.Logger;
 
 public class EEGDatasource implements Runnable, XYSeries, Datasource{
 

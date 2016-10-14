@@ -1,4 +1,4 @@
-package com.neuroelectrics;
+package com.icognos;
 
 import java.util.ArrayList;
 

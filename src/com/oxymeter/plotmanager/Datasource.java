@@ -1,4 +1,4 @@
-package com.neuroelectrics.plotmanager;
+package com.icognos.plotmanager;
 
 public interface Datasource {
 	

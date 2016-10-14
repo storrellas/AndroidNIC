@@ -1,4 +1,4 @@
-package com.neuroelectrics.util;
+package com.icognos.util;
 
 public class Reference<T> {
     private T referent;
